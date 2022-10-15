@@ -4,13 +4,22 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+  h1{
+    text-align: center;
+    color: black;
+    text-shadow: rgb(123, 183, 243);
+    font-weight: bold;
+    
+  }
   body {
-    background-color: #7a9bf4;
+    background-color: #cfd8f3;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .container {
-    width: 80vmin;
-    padding: 50px 30px;
-    background-color: #ffffff;
+    width: 100vmin;
+    padding: 20px 20px;
+    background-color: #faa8a8;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -42,7 +51,8 @@
     margin-top: 20px;
     background-color: #3066f6;
     color: #ffffff;
-    border: none;
+    border: black;
+    border-width: 10px;
     padding: 10px 30px;
     border-radius: 5px;
     font-size: 18px;

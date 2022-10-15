@@ -1,9 +1,9 @@
 //Random Quotes Api URL
-const quoteApiUrl = "https://api.quotable.io/random?minLength=80&maxLength=100";
+const quoteApiUrl = "https://api.quotable.io/random?minLength=200&maxLength=300";
 const quoteSection = document.getElementById("quote");
 const userInput = document.getElementById("quote-input");
 let quote = "";
-let time = 60;
+let time = 120;
 let timer = "";
 let mistakes = 0;
 
@@ -84,7 +84,7 @@ function updateTimer() {
 
 //Sets timer
 const timeReduce = () => {
-  time = 60;
+  time = 120;
   timer = setInterval(updateTimer, 1000);
 };
 
@@ -97,7 +97,7 @@ const displayResult = () => {
   userInput.disabled = true;
   let timeTaken = 1;
   if (time != 0) {
-    timeTaken = (60 - time) / 100;
+    timeTaken = (120 - time) / 100;
   }
   document.getElementById("wpm").innerText =
     (userInput.value.length / 5 / timeTaken).toFixed(2) + " wpm";
