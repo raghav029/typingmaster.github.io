@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   
-  h1{
+   h1{
     text-align: center;
     color: black;
     text-shadow: rgb(123, 183, 243);
@@ -23,7 +23,7 @@
     background-color: #faa8a8;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 65%;
     left: 50%;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
@@ -87,6 +87,15 @@
 @keyframes blinker {
     50% {
         opacity: 0;
-    }
-}
 
+   }
+
+  }
+ .card{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 65%;
+  left: 87%;
+
+
+ }
