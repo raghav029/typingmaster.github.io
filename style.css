@@ -4,7 +4,51 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+  .feedback h6{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 155%;
+    left: 87%;
+    border-radius: 20px;
+    line-height: 0;
 
+  }
+  .feedback img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 180%;
+    left: 87%;
+    border-radius: 20px;
+
+  }
+  .text1{
+    position: absolute;
+  top: 170%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  font-weight: bolder;
+  color: #ffffff;
+  border-radius: 20px ;
+  border-color: #e81c4e;
+  border-width: 5px;
+  box-shadow: 20px 20px 40px  rgba(0, 0, 0, 0.15);
+  
+
+  }
+.img1{
+  position: absolute;
+  top: 150%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px ;
+  border-color: #e81c4e;
+  border-width: 5px;
+  box-shadow: 20px 20px 40px  rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  line-height: 0;
+  
+
+}
   .fade-in-text {
     font-size: 100px;
     font-family: sans-serif;
