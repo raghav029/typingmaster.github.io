@@ -4,15 +4,70 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+
+  .fade-in-text {
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
   
-   h6{
+  .fade-in-text {
+    animation: mover 8s linear infinite;
+    display: inline-block;
+    color: #fff;
+    font-weight: bolder;
+}
+  
+  @keyframes mover {
+    0%{
+      text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+    }
+  50%{
+      text-shadow: 0 0 30px rgba(211, 22, 22, 0.824);
+      transform: translateY(80px);
+    }
+  100%
+    {
+      text-shadow: 0 0 30px rgba(20, 222, 20, 0.906);
+  }
+}
+  
+  .fade-in-text :nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+  .fade-in-text :nth-child(2)
+{
+    animation-delay: 1s;
+}
+  .fade-in-text :nth-child(3)
+{
+    animation-delay: 1.5s;
+}
+  .fade-in-text :nth-child(4)
+{
+    animation-delay: 2s;
+}
+  .fade-in-text :nth-child(5)
+{
+    animation-delay: 2.5s;
+}
+  .fade-in-text :nth-child(6)
+{
+    animation-delay: 3s;
+}
+  
+  h6{
     text-align: center;
     color: black;
     text-shadow: rgb(123, 183, 243);
     font-weight: bold;
     position: absolute;
     transform: translate(-10%, 50%);
-    top: 100%;
+    top: 140%;
     left: 80%;
     
   }
@@ -202,7 +257,7 @@ footer {
 }
 
 .footer-bottom{
-  background: rgb(30, 116, 208);
+  background: rgb(249, 249, 249);
   width: 100%;
   padding: 20px;
   padding-bottom: 20px;
@@ -230,12 +285,12 @@ display: block;
 }
 
 .footer-menu ul li a{
-  color: #cfd2d6;
+  color: #000000;
   text-decoration: none;
 }
 
 .footer-menu ul li a:hover{
-  color: #27bcda;
+  color: #000000;
 }
 
  
